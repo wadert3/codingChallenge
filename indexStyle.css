@@ -1,12 +1,16 @@
 html, body {
   background-color: #424549;
   border: none;
+  font-family: 'Poppins';
+  transition: .5s;
+  margin: 0;
+  padding: 0;
 }
 header{
     position : relative;
     min-height : 200px;
     background : #1e2124;
-
+    margin: 0;
   }
 
 header h1{
@@ -15,7 +19,7 @@ header h1{
     color: #99aab5;
     bottom: 70px;
     left: 20px;
-
+    font-style: bold;
 }
 header h2{
     position: absolute;
@@ -23,7 +27,8 @@ header h2{
     color: #99aab5;
     bottom: 30px;
     left: 25px;
-
+    font-weight: 200;
+    font-style: italic;
 }
 .collapsible {
   background-color: #282b30;
@@ -37,17 +42,13 @@ header h2{
   margin: 10px;
   margin-bottom: 0;
   margin-left: 0;
-
+  transition: .5s;
 
 }
 
 .active, .collapsible:hover {
   background-color: #7289da;
-
-}
-
-.content {
-
+  transition: .5s;
 }
 
 table{
@@ -76,6 +77,7 @@ th {
   display: flex;
   max-width: 100%;
     flex-wrap: wrap;
+    transition: .5s;
 }
 
 .divContent h3{
