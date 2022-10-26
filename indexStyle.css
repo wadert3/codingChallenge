@@ -1,0 +1,87 @@
+html, body {
+  background-color: #424549;
+  border: none;
+}
+header{
+    position : relative;
+    min-height : 200px;
+    background : #1e2124;
+
+  }
+
+header h1{
+    position: absolute;
+    font-size: 50px;
+    color: #99aab5;
+    bottom: 70px;
+    left: 20px;
+
+}
+header h2{
+    position: absolute;
+    font-size: 20px;
+    color: #99aab5;
+    bottom: 30px;
+    left: 25px;
+
+}
+.collapsible {
+  background-color: #282b30;
+  color: #99aab5;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  margin: 10px;
+  margin-bottom: 0;
+  margin-left: 0;
+
+
+}
+
+.active, .collapsible:hover {
+  background-color: #7289da;
+
+}
+
+.content {
+
+}
+
+table{
+  width: 100%;
+}
+
+th {
+
+  margin: 0;
+  padding: 18px;
+  font-size: 50px;
+  color: #99aab5;
+  align-content: left;
+}
+.divContent {
+  padding: 20px;
+  background: #2c2f33;
+  margin: 20px;
+  width: 400px;
+
+
+}
+.content{
+  padding: 0 18px;
+  overflow: hidden;
+  display: flex;
+  max-width: 100%;
+    flex-wrap: wrap;
+}
+
+.divContent h3{
+  color: #99aab5;
+  font-size: 20px;
+}
+.divContent p{
+  color: #8899a4;
+}
